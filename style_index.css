@@ -1,0 +1,129 @@
+/* html의 기본 margin, padding을 없애주는 유용한 */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* 전체 CSS */
+body {
+    background-color: white;
+    color: #333;
+    font-size: medium;
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.main {
+    margin: 20px auto;
+    color: black;
+    line-height: 1.5; 
+}
+
+/* 상단 헤더 CSS */
+ul {
+    list-style-type: none;
+}
+
+.navbar {
+    background-color: black;
+    color: white;
+    height: 60px;
+}
+
+.navbar .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+    line-height: 30px;
+}
+
+.navbar .logo {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    border-bottom: 1.7px #aaa solid;
+    color: #aaa;
+}
+
+h1 {
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#github {
+    height: 30px;
+    margin-right: 8px;
+    display: block;
+}
+/* --------------------------------------------------- */
+
+
+/* 테이블 영역 */
+table {
+    background: white;
+    border-radius: 3px;
+    border-collapse: collapse;
+    height: 400px;
+    margin: auto;
+    max-width: 900px;
+    padding: 5px;
+    width: 100%;
+}
+
+th {
+    color: #d5dde5;
+    background: #0d0d0d;
+    border-bottom:4px solid #9ea7af;
+    border-right: 1px solid #343a45;
+    font-size:23px;
+    font-weight: 100;
+    padding:24px;
+}
+
+tr {
+    border-top: 1px solid #C1C3D1;
+    border-bottom: 1px solid #C1C3D1;
+    color:#000000;
+    font-size:16px;
+    font-weight:normal;
+}
+
+td img {
+    margin-top: 5px;
+}
+
+td a {
+    text-decoration: none;
+    color: #000000;
+}
+
+td a:hover {
+    color: #aaa;
+}

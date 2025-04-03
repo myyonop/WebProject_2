@@ -1,0 +1,107 @@
+/* html의 기본 margin, padding을 없애주는 유용한 */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* 전체 CSS */
+body {
+    background-color: white;
+    color: #333;
+    font-size: medium;
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.main {
+    margin: 20px auto;
+    color: black;
+    line-height: 1.5; 
+}
+
+/* 상단 헤더 CSS */
+ul {
+    list-style-type: none;
+}
+
+.navbar {
+    background-color: black;
+    color: white;
+    height: 60px;
+}
+
+.navbar .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+    line-height: 30px;
+}
+
+.navbar .logo {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    border-bottom: 1.7px #aaa solid;
+    color: #aaa;
+}
+
+h1 {
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#github {
+    height: 30px;
+    margin-right: 8px;
+    display: block;
+}
+/* --------------------------------------------------- */
+
+p {
+    margin: 10px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.phantom{
+    margin-bottom: 100px;
+    
+}
+.jekyll{
+    margin-bottom: 100px;
+}
+.aladdin{
+    margin-bottom: 100px;
+}
+.madison{
+    margin-bottom: 100px;
+}
+.dorian{
+    margin-bottom: 100px;
+}
